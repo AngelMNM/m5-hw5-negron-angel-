@@ -21,7 +21,6 @@ h2 {
     width: 300px;
     height: 300px;
     background-color: black;
-    color: white;
     border: solid 10px #6003c3
    }
 
@@ -32,6 +31,7 @@ h2 {
 
    }
 
+/*
    .col-lg:nth-child(1) {
        background-color: yellow;
    }
@@ -41,3 +41,19 @@ h2 {
     .col-lg:nth-child(3) {
         background-color: green;
         }
+*/
+
+
+   .one {
+       background-color: yellow;
+   }
+   .two {
+    background-color: lightblue;
+    }
+    .three {
+        background-color: green;
+        }
+
+    .blackbg {
+        background-color: brown;
+    }
