@@ -47,7 +47,7 @@ function changeBack() {
 //When you click on box 1
     boxes[0].addEventListener('click', 
         function() {
-            placeHolder1.appendChild(newH3) 
+            placeHolder1.appendChild(newH3); 
             }
         );
 
@@ -68,18 +68,15 @@ function changeBack() {
 
 
 
+//Hidden button made to appear when clicking on any box
+var hiddenButton = document.getElementsByTagName('button')[0];
 
-    //var for new text element
- /*   var newText = document.getElementsByTagName('main');
-
+function buttonAppear() {
+    hiddenButton.classList.add('shown');
+    }
     
-    var newP = document.createElement('p');
-    var ooh = document.createTextNode('Oooh - so close, but no cigar');
-    
-    var finalText = newH3.appendChild(ooh);
-
-    var finalText = document.getElementsByTagName('MAIN');
-    finalText.appendChild(newH3);
-    finalText.appendChild(newP);
-*/
+//for loop with event listeners looking for mouseovers
+for (i = 0; i < boxes.length; i++) {
+     boxes[i].addEventListener("click", buttonAppear);
+     }
 

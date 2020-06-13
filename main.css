@@ -31,19 +31,6 @@ h2 {
 
    }
 
-/*
-   .col-lg:nth-child(1) {
-       background-color: yellow;
-   }
-   .col-lg:nth-child(2) {
-    background-color: lightblue;
-    }
-    .col-lg:nth-child(3) {
-        background-color: green;
-        }
-*/
-
-
    .one {
        background-color: yellow;
    }
@@ -56,4 +43,11 @@ h2 {
 
     .blackbg {
         background-color: brown;
+    }
+
+    .hidden {
+        visibility: hidden;
+        }
+    .shown {
+        visibility: visible; 
     }
