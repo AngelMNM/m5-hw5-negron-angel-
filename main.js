@@ -72,6 +72,7 @@ function changeBack() {
 var hiddenButton = document.getElementsByTagName('button')[0];
 
 function buttonAppear() {
+    hiddenButton.classList.remove('hidden');
     hiddenButton.classList.add('shown');
     }
     
