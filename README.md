@@ -1,10 +1,10 @@
 # m5-hw5-negron-angel-
 Homework 5
 
-##Issues
-Javascript as a whole is an issue for me, and not for a lack of trying or study.  It's not pretty, but I think it works.
+## Issues
+Javascript as a whole is an issue for me, and not for a lack of trying or study. Doesn't soak in too well.  It's not pretty, but I think it works.
 
-##Sources
+## Sources
 Rewatched a lot of the lessons over and over
 Bootstrap site
 Stack Overflow
